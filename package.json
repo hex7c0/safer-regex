@@ -1,0 +1,49 @@
+{
+  "version": "0.0.0",
+  "name": "regex-safer",
+  "description": "detect possibly exponential-time regular expressions (with cli support)",
+  "keywords": [
+    "regex",
+    "regexp",
+    "safe"
+  ],
+  "homepage": "https://github.com/hex7c0/regex-safer",
+  "author": {
+    "name": "hex7c0",
+    "email": "hex7c0@gmail.com",
+    "url": "https://hex7c0.github.io/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hex7c0/regex-safer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hex7c0/regex-safer/issues",
+    "email": "hex7c0@gmail.com"
+  },
+  "directories": {
+    "bin": "./bin",
+    "example": "./examples"
+  },
+  "bin": {
+    "mongodb-backup": "./bin/cli.js"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cli": "1.0.0",
+    "safe-regex": "1.1.0"
+  },
+  "devDependencies": {
+    "istanbul": "~0.4",
+    "mocha": "~3.0"
+  },
+  "engines": {
+    "node": ">=0.10"
+  },
+  "scripts": {
+    "prepublish": "npm prune",
+    "test": "mocha --bail --check-leaks && node bin/cli.js -h,
+    "test-cov": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly"
+  },
+  "license": "GPL-3.0"
+}
