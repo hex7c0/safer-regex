@@ -1,10 +1,10 @@
-# [regex-safer](https://github.com/hex7c0/regex-safer)
+# [safer-regex](https://github.com/hex7c0/safer-regex)
 
-[![NPM version](https://img.shields.io/npm/v/regex-safer.svg)](https://www.npmjs.com/package/regex-safer)
-[![Linux Status](https://img.shields.io/travis/hex7c0/regex-safer.svg?label=linux)](https://travis-ci.org/hex7c0/regex-safer)
-[![Windows Status](https://img.shields.io/appveyor/ci/hex7c0/regex-safer.svg?label=windows)](https://ci.appveyor.com/project/hex7c0/regex-safer)
-[![Dependency Status](https://img.shields.io/david/hex7c0/regex-safer.svg)](https://david-dm.org/hex7c0/regex-safer)
-[![Coveralls](https://img.shields.io/coveralls/hex7c0/regex-safer.svg)](https://coveralls.io/r/hex7c0/regex-safer)
+[![NPM version](https://img.shields.io/npm/v/safer-regex.svg)](https://www.npmjs.com/package/safer-regex)
+[![Linux Status](https://img.shields.io/travis/hex7c0/safer-regex.svg?label=linux)](https://travis-ci.org/hex7c0/safer-regex)
+[![Windows Status](https://img.shields.io/appveyor/ci/hex7c0/safer-regex.svg?label=windows)](https://ci.appveyor.com/project/hex7c0/safer-regex)
+[![Dependency Status](https://img.shields.io/david/hex7c0/safer-regex.svg)](https://david-dm.org/hex7c0/safer-regex)
+[![Coveralls](https://img.shields.io/coveralls/hex7c0/safer-regex.svg)](https://coveralls.io/r/hex7c0/safer-regex)
 
 Detect possibly exponential-time regular expressions, thanks to [safe-regex](https://github.com/substack/safe-regex) with cli support
 
@@ -13,18 +13,18 @@ Detect possibly exponential-time regular expressions, thanks to [safe-regex](htt
 Install through NPM
 
 ```bash
-npm install regex-safer
+npm install safer-regex
 ```
 or
 ```bash
-git clone git://github.com/hex7c0/regex-safer.git
+git clone git://github.com/hex7c0/safer-regex.git
 ```
 
 ## API
 
 inside nodejs project
 ```js
-var safe = require('regex-safer');
+var safe = require('safer-regex');
 
 safe('(a+){2}y');
 ```
@@ -41,17 +41,17 @@ safe('(a+){2}y');
 Install through NPM
 
 ```bash
-npm install -g regex-safer
+npm install -g safer-regex
 ```
 
 ## API
 
 global cli with `-g` option
 ```bash
-$ regex-safer -h
+$ safer-regex -h
 
 Usage:
-  regex-safer [OPTIONS] [ARGS]
+  safer-regex [OPTIONS] [ARGS]
 
 Options: 
   -v, --version          Display the current version

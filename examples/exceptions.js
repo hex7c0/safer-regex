@@ -1,7 +1,7 @@
 'use strict';
 /**
  * @file exception example
- * @module regex-safer
+ * @module safer-regex
  * @subpackage examples
  * @version 0.0.1
  * @author hex7c0 <hex7c0@gmail.com>
@@ -11,7 +11,7 @@
 /*
  * initialize module
  */
-var safe = require('..'); // use require('regex-safer') instead
+var safe = require('..'); // use require('safer-regex') instead
 
 safe('Oakland'); // return NULL
 

@@ -1,7 +1,7 @@
 'use strict';
 /**
- * @file regex-safer main
- * @module regex-safer
+ * @file safer-regex main
+ * @module safer-regex
  * @subpackage main
  * @version 0.0.1
  * @author hex7c0 <hex7c0@gmail.com>
