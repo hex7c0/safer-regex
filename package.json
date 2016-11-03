@@ -1,5 +1,5 @@
 {
-  "version": "0.0.2",
+  "version": "0.1.0",
   "name": "safer-regex",
   "description": "detect possibly exponential-time regular expressions (with cli support)",
   "keywords": [
