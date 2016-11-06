@@ -1,7 +1,7 @@
 # [safer-regex](https://github.com/hex7c0/safer-regex)
 
 [![NPM version](https://img.shields.io/npm/v/safer-regex.svg)](https://www.npmjs.com/package/safer-regex)
-[![Linux Status](https://img.shields.io/travis/hex7c0/safer-regex.svg?label=linux)](https://travis-ci.org/hex7c0/safer-regex)
+[![Linux Status](https://img.shields.io/travis/hex7c0/safer-regex.svg?label=linux-osx)](https://travis-ci.org/hex7c0/safer-regex)
 [![Windows Status](https://img.shields.io/appveyor/ci/hex7c0/safer-regex.svg?label=windows)](https://ci.appveyor.com/project/hex7c0/safer-regex)
 [![Dependency Status](https://img.shields.io/david/hex7c0/safer-regex.svg)](https://david-dm.org/hex7c0/safer-regex)
 [![Coveralls](https://img.shields.io/coveralls/hex7c0/safer-regex.svg)](https://coveralls.io/r/hex7c0/safer-regex)
