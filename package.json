@@ -7,6 +7,7 @@
     "regexp",
     "safe"
   ],
+  "preferGlobal": true,
   "homepage": "https://github.com/hex7c0/safer-regex",
   "author": {
     "name": "hex7c0",
