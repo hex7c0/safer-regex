@@ -3,7 +3,7 @@
  * @file safer-regex main
  * @module safer-regex
  * @subpackage main
- * @version 0.0.1
+ * @version 0.2.0
  * @author hex7c0 <hex7c0@gmail.com>
  * @copyright hex7c0 2016
  * @license GPLv3
