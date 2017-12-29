@@ -36,10 +36,10 @@
   },
   "devDependencies": {
     "istanbul": "~0.4",
-    "mocha": "~3.4"
+    "mocha": "~4.1"
   },
   "engines": {
-    "node": ">=4.0"
+    "node": ">=4"
   },
   "scripts": {
     "test": "mocha --bail --check-leaks && node bin/cli.js -h",
